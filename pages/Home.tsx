@@ -124,9 +124,9 @@ const Home: React.FC<HomeProps> = ({ onNavigate, onSubscribe }) => {
                     <div className="h-full bg-emerald-500 w-[78%] animate-[shimmer_2s_infinite]"></div>
                   </div>
                   <div className="p-4 bg-slate-950 rounded-2xl border border-white/5 font-mono text-xs text-emerald-400 space-y-2">
-                    <p className="">> ANALYZING BMS_PACK_02...</p>
-                    <p className="text-slate-500 opacity-60">> VOLTAGE_UNBALANCE_DETECTED: 0.045V</p>
-                    <p className="animate-pulse">> STATUS: CRITICAL_DIAGNOSIS_READY</p>
+                    <p className="">&gt; ANALYZING BMS_PACK_02...</p>
+                    <p className="text-slate-500 opacity-60">&gt; VOLTAGE_UNBALANCE_DETECTED: 0.045V</p>
+                    <p className="animate-pulse">&gt; STATUS: CRITICAL_DIAGNOSIS_READY</p>
                   </div>
                   <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" className="w-full h-48 object-cover rounded-2xl grayscale opacity-40 contrast-150" alt="Diagnostic Interface" />
                 </div>
