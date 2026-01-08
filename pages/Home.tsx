@@ -128,7 +128,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate, onSubscribe }) => {
                     <p className="text-slate-500 opacity-60">> VOLTAGE_UNBALANCE_DETECTED: 0.045V</p>
                     <p className="animate-pulse">> STATUS: CRITICAL_DIAGNOSIS_READY</p>
                   </div>
-                  <img src="https://images.unsplash.com/photo-1558444455-57551075ff49?auto=format&fit=crop&q=80&w=400" className="w-full h-48 object-cover rounded-2xl grayscale opacity-50 contrast-125" alt="Diagnostic Interface" />
+                  <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" className="w-full h-48 object-cover rounded-2xl grayscale opacity-40 contrast-150" alt="Diagnostic Interface" />
                 </div>
               </div>
             </div>
