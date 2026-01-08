@@ -1,0 +1,8 @@
+{
+  "name": "水稻新能源专家",
+  "description": "水稻系专业级新能源汽车技术支持平台，提供三电系统深度AI诊断与维修方案。",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
