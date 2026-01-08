@@ -11,7 +11,7 @@ const PLANS: PricingPlan[] = [
   {
     id: 'monthly',
     name: '极客专业版',
-    price: 299,
+    price: 499,
     period: 'month',
     features: ['全量DTC故障库深度匹配', '三电系统拓扑逻辑分析', 'IGBT功率模组诊断建议', '高压安全防护实时指引'],
     recommended: false
@@ -234,7 +234,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate, onSubscribe }) => {
         }
       `}</style>
 
-      {/* Payment Modal (Keep the existing one logic) */}
+      {/* Payment Modal */}
       {selectedPlan && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
           <div className="absolute inset-0 bg-slate-950/80 backdrop-blur-md" onClick={() => setSelectedPlan(null)}></div>
